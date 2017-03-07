@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		818354051E6EC202004CB32F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 818354041E6EC202004CB32F /* main.m */; };
+		818354081E6EC202004CB32F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 818354071E6EC202004CB32F /* AppDelegate.m */; };
+		8183540B1E6EC202004CB32F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8183540A1E6EC202004CB32F /* ViewController.m */; };
+		8183540E1E6EC202004CB32F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8183540C1E6EC202004CB32F /* Main.storyboard */; };
+		818354101E6EC202004CB32F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8183540F1E6EC202004CB32F /* Assets.xcassets */; };
+		818354131E6EC202004CB32F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 818354111E6EC202004CB32F /* LaunchScreen.storyboard */; };
+		8183541E1E6EC202004CB32F /* DeepCocoaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8183541D1E6EC202004CB32F /* DeepCocoaTests.m */; };
+		818354291E6EC202004CB32F /* DeepCocoaUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 818354281E6EC202004CB32F /* DeepCocoaUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8183541A1E6EC202004CB32F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 818353F81E6EC202004CB32F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 818353FF1E6EC202004CB32F;
+			remoteInfo = DeepCocoa;
+		};
+		818354251E6EC202004CB32F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 818353F81E6EC202004CB32F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 818353FF1E6EC202004CB32F;
+			remoteInfo = DeepCocoa;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		818354001E6EC202004CB32F /* DeepCocoa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeepCocoa.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		818354041E6EC202004CB32F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		818354061E6EC202004CB32F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		818354071E6EC202004CB32F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		818354091E6EC202004CB32F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8183540A1E6EC202004CB32F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8183540D1E6EC202004CB32F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8183540F1E6EC202004CB32F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		818354121E6EC202004CB32F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		818354141E6EC202004CB32F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		818354191E6EC202004CB32F /* DeepCocoaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DeepCocoaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8183541D1E6EC202004CB32F /* DeepCocoaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DeepCocoaTests.m; sourceTree = "<group>"; };
+		8183541F1E6EC202004CB32F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		818354241E6EC202004CB32F /* DeepCocoaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DeepCocoaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		818354281E6EC202004CB32F /* DeepCocoaUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DeepCocoaUITests.m; sourceTree = "<group>"; };
+		8183542A1E6EC202004CB32F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		818353FD1E6EC202004CB32F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		818354161E6EC202004CB32F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		818354211E6EC202004CB32F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		818353F71E6EC202004CB32F = {
+			isa = PBXGroup;
+			children = (
+				818354021E6EC202004CB32F /* DeepCocoa */,
+				8183541C1E6EC202004CB32F /* DeepCocoaTests */,
+				818354271E6EC202004CB32F /* DeepCocoaUITests */,
+				818354011E6EC202004CB32F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		818354011E6EC202004CB32F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				818354001E6EC202004CB32F /* DeepCocoa.app */,
+				818354191E6EC202004CB32F /* DeepCocoaTests.xctest */,
+				818354241E6EC202004CB32F /* DeepCocoaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		818354021E6EC202004CB32F /* DeepCocoa */ = {
+			isa = PBXGroup;
+			children = (
+				818354061E6EC202004CB32F /* AppDelegate.h */,
+				818354071E6EC202004CB32F /* AppDelegate.m */,
+				818354091E6EC202004CB32F /* ViewController.h */,
+				8183540A1E6EC202004CB32F /* ViewController.m */,
+				8183540C1E6EC202004CB32F /* Main.storyboard */,
+				8183540F1E6EC202004CB32F /* Assets.xcassets */,
+				818354111E6EC202004CB32F /* LaunchScreen.storyboard */,
+				818354141E6EC202004CB32F /* Info.plist */,
+				818354031E6EC202004CB32F /* Supporting Files */,
+			);
+			path = DeepCocoa;
+			sourceTree = "<group>";
+		};
+		818354031E6EC202004CB32F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				818354041E6EC202004CB32F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8183541C1E6EC202004CB32F /* DeepCocoaTests */ = {
+			isa = PBXGroup;
+			children = (
+				8183541D1E6EC202004CB32F /* DeepCocoaTests.m */,
+				8183541F1E6EC202004CB32F /* Info.plist */,
+			);
+			path = DeepCocoaTests;
+			sourceTree = "<group>";
+		};
+		818354271E6EC202004CB32F /* DeepCocoaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				818354281E6EC202004CB32F /* DeepCocoaUITests.m */,
+				8183542A1E6EC202004CB32F /* Info.plist */,
+			);
+			path = DeepCocoaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		818353FF1E6EC202004CB32F /* DeepCocoa */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8183542D1E6EC202004CB32F /* Build configuration list for PBXNativeTarget "DeepCocoa" */;
+			buildPhases = (
+				818353FC1E6EC202004CB32F /* Sources */,
+				818353FD1E6EC202004CB32F /* Frameworks */,
+				818353FE1E6EC202004CB32F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DeepCocoa;
+			productName = DeepCocoa;
+			productReference = 818354001E6EC202004CB32F /* DeepCocoa.app */;
+			productType = "com.apple.product-type.application";
+		};
+		818354181E6EC202004CB32F /* DeepCocoaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 818354301E6EC202004CB32F /* Build configuration list for PBXNativeTarget "DeepCocoaTests" */;
+			buildPhases = (
+				818354151E6EC202004CB32F /* Sources */,
+				818354161E6EC202004CB32F /* Frameworks */,
+				818354171E6EC202004CB32F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8183541B1E6EC202004CB32F /* PBXTargetDependency */,
+			);
+			name = DeepCocoaTests;
+			productName = DeepCocoaTests;
+			productReference = 818354191E6EC202004CB32F /* DeepCocoaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		818354231E6EC202004CB32F /* DeepCocoaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 818354331E6EC202004CB32F /* Build configuration list for PBXNativeTarget "DeepCocoaUITests" */;
+			buildPhases = (
+				818354201E6EC202004CB32F /* Sources */,
+				818354211E6EC202004CB32F /* Frameworks */,
+				818354221E6EC202004CB32F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				818354261E6EC202004CB32F /* PBXTargetDependency */,
+			);
+			name = DeepCocoaUITests;
+			productName = DeepCocoaUITests;
+			productReference = 818354241E6EC202004CB32F /* DeepCocoaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		818353F81E6EC202004CB32F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "MackChan  minhechen@gmail.com";
+				TargetAttributes = {
+					818353FF1E6EC202004CB32F = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					818354181E6EC202004CB32F = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 818353FF1E6EC202004CB32F;
+					};
+					818354231E6EC202004CB32F = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 818353FF1E6EC202004CB32F;
+					};
+				};
+			};
+			buildConfigurationList = 818353FB1E6EC202004CB32F /* Build configuration list for PBXProject "DeepCocoa" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 818353F71E6EC202004CB32F;
+			productRefGroup = 818354011E6EC202004CB32F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				818353FF1E6EC202004CB32F /* DeepCocoa */,
+				818354181E6EC202004CB32F /* DeepCocoaTests */,
+				818354231E6EC202004CB32F /* DeepCocoaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		818353FE1E6EC202004CB32F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				818354131E6EC202004CB32F /* LaunchScreen.storyboard in Resources */,
+				818354101E6EC202004CB32F /* Assets.xcassets in Resources */,
+				8183540E1E6EC202004CB32F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		818354171E6EC202004CB32F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		818354221E6EC202004CB32F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		818353FC1E6EC202004CB32F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8183540B1E6EC202004CB32F /* ViewController.m in Sources */,
+				818354081E6EC202004CB32F /* AppDelegate.m in Sources */,
+				818354051E6EC202004CB32F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		818354151E6EC202004CB32F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8183541E1E6EC202004CB32F /* DeepCocoaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		818354201E6EC202004CB32F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				818354291E6EC202004CB32F /* DeepCocoaUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8183541B1E6EC202004CB32F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 818353FF1E6EC202004CB32F /* DeepCocoa */;
+			targetProxy = 8183541A1E6EC202004CB32F /* PBXContainerItemProxy */;
+		};
+		818354261E6EC202004CB32F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 818353FF1E6EC202004CB32F /* DeepCocoa */;
+			targetProxy = 818354251E6EC202004CB32F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8183540C1E6EC202004CB32F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8183540D1E6EC202004CB32F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		818354111E6EC202004CB32F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				818354121E6EC202004CB32F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8183542B1E6EC202004CB32F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8183542C1E6EC202004CB32F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8183542E1E6EC202004CB32F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DeepCocoa/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.minhechen.DeepCocoa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8183542F1E6EC202004CB32F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DeepCocoa/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.minhechen.DeepCocoa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		818354311E6EC202004CB32F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DeepCocoaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.minhechen.DeepCocoaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DeepCocoa.app/DeepCocoa";
+			};
+			name = Debug;
+		};
+		818354321E6EC202004CB32F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DeepCocoaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.minhechen.DeepCocoaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DeepCocoa.app/DeepCocoa";
+			};
+			name = Release;
+		};
+		818354341E6EC202004CB32F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DeepCocoaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.minhechen.DeepCocoaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DeepCocoa;
+			};
+			name = Debug;
+		};
+		818354351E6EC202004CB32F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DeepCocoaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.minhechen.DeepCocoaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DeepCocoa;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		818353FB1E6EC202004CB32F /* Build configuration list for PBXProject "DeepCocoa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8183542B1E6EC202004CB32F /* Debug */,
+				8183542C1E6EC202004CB32F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8183542D1E6EC202004CB32F /* Build configuration list for PBXNativeTarget "DeepCocoa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8183542E1E6EC202004CB32F /* Debug */,
+				8183542F1E6EC202004CB32F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		818354301E6EC202004CB32F /* Build configuration list for PBXNativeTarget "DeepCocoaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				818354311E6EC202004CB32F /* Debug */,
+				818354321E6EC202004CB32F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		818354331E6EC202004CB32F /* Build configuration list for PBXNativeTarget "DeepCocoaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				818354341E6EC202004CB32F /* Debug */,
+				818354351E6EC202004CB32F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 818353F81E6EC202004CB32F /* Project object */;
+}
